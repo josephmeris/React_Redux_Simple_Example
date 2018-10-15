@@ -1,0 +1,65 @@
+.topnav {
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  .topnav a {
+    float: left;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    color: #f2f2f2;
+  }
+
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+
+  .active {
+    color: #2B98C6 !important;
+    background-color: #ddd;
+  }
+
+  .column {
+    float: left;
+    width: 50%;
+    padding: 10px;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.home-center-welcome{
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  margin-top: -50px;
+  margin-left: -100px;
+  height: 50px;
+  width: 150px;
+  font-size: 20px;
+}
+
+.email-textbox-homepage{
+  height: 50px;
+  width: 350px;
+  font-size: 20px;
+  text-align: center;
+}
+
+.button-home-sign-up{
+  height: 40px;
+  width: 100px;
+  background-color: #2B98C6;
+  color: #ffffff;
+  border-style: none;
+}
+
+.button-home-panel{
+  text-align: center;
+}

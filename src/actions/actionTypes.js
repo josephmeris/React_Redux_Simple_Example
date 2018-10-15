@@ -1,0 +1,1 @@
+export const SET_EMAILADDRESS = 'SET_EMAILADDRESS'
